@@ -28,6 +28,8 @@ jobs:
       run: dotnet test --no-build --verbosity normal
     - name: Use reusable steps
       uses: ./.github/actions/reusable-steps 
+    - name: Log Step
+      uses: ./.github/actions/log-step 
     - name: Principal Flow
       shell: bash 
       run: |
