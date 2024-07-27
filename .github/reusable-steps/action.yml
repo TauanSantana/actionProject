@@ -12,4 +12,4 @@ runs:
     - name: Step Name2
       shell: bash 
       run: |
-        echo "$(hostname)"
+        echo "Machine Step: $(hostname)"

@@ -31,4 +31,4 @@ jobs:
     - name: Principal Flow
       shell: bash 
       run: |
-        echo "$(hostname)"
+        echo "Machine Flow: $(hostname)"
