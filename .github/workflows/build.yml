@@ -27,7 +27,7 @@ jobs:
     - name: Test
       run: dotnet test --no-build --verbosity normal
     - name: Use reusable steps
-      uses: ./.github/reusable-steps 
+      uses: ./.github/actions/reusable-steps 
     - name: Principal Flow
       shell: bash 
       run: |
