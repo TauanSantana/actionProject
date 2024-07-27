@@ -29,7 +29,7 @@ jobs:
     - name: Use reusable steps
       uses: ./.github/actions/reusable-steps 
     - name: Log Step
-      uses: ./.github/actions/log-step 
+      uses: ./.github/actions/log-step@v3.0.0 
     - name: Principal Flow
       shell: bash 
       run: |
